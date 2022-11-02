@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(242, 243, 243); /*цвет фона*/
+    font-size: 16px; /*размер*/
+    font-weight: 400; /*толщина*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*ihban*/
+}
+
+.info {
+    display: flex;
+    padding-left: 5%;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+ }
+
+.info-text {
+    margin-left: 30px;
+    color: rgb(1, 1, 59);
+}
+h1 {
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgb(5, 5, 5) 
+}
+
+
+.info p { 
+padding-top: 5px;
+padding-bottom: 0px;
+margin: 0;
+
+}
+
+.info h3 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: rgb(14, 14, 78);
+}
+
+.tseli h2 {
+    color: rgb(14, 14, 78);
+    text-align: center;
+}
+
+.tseli {
+    background-color: rgb(255, 248, 188);
+    border: 2px solid rgb(9, 13, 48);
+    margin: 30px 0px;
+    padding: 0%;
+}
+
+.vsya {
+    width: 90%;
+    margin: auto;
+}
+
+.table h2 {
+     text-align: center;
+     color: rgb(14, 14, 78);
+}
+
+.table {
+    background-color: rgb(202, 169, 218);
+    border: 2px solid rgb(9, 13, 48);
+    margin: 30px 0px;
+    padding: 10px;
+}
+
+.table table{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.table td {
+    padding: 0px 20px;
+}
+
+
+.kursy {
+    text-align: center;
+    background-color: rgb(245, 170, 226);
+    border: 2px solid rgb(9, 13, 48);
+    margin: 30px 0px;
+    padding: 10px;
+}
+
+.kursy table {
+    margin: auto;
+}
+ 
+.kursy td {
+    padding: 0px 20px;
+}
+
+.kontakty {
+    text-align: center;
+    margin: auto;
+}
+
+.kontakty table {
+    margin: auto;
+    padding: 20px;
+}
+
+.kontakty td {
+    padding: 0px 30px;
+}
+
+a {
+    color: rgb(1, 1, 85);
+}
+ a:hover {
+    color: rgb(0, 174, 255);
+ }
+ 
+ a :visited {
+    text-decoration: none;
+    color: rgb(245, 170, 226);
+ }
+
